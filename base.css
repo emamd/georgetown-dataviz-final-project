@@ -1,0 +1,67 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.headline {
+  max-width: 600px;
+  margin: 30px auto 20px auto;
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: #222;
+  font-size: 48px;
+
+}
+
+.subhead {
+  max-width: 600px;
+  margin: 0px auto 20px auto;
+  color: #222;
+  font-size: 24px;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+h2.subhead {
+  margin-top: 40px;
+}
+
+.story-body  .byline {
+  max-width: 600px;
+  margin: 0px auto 20px auto;
+  color: #222;
+  font-size: 14px;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.story-body .credit {
+  max-width: 600px;
+  margin: 10px auto 20px auto;
+  color: #666;
+  font-size: 13px;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.story-body p {
+  max-width: 600px;
+  font-size: 18px;
+  font-family: Georgia, Times, Serif;
+  line-height: 1.6em;
+  color: #4a4a4a;
+  margin: 0px auto 20px auto;
+}
+
+.chart.placeholder {
+  height: 400px;
+  background: #eee;
+  position: relative;
+}
+
+.chart.placeholder:before {
+  content: 'Chart goes here';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: #999;
+  font-size: 20px;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
