@@ -12,7 +12,7 @@
 
   <body>
     <header>
-      <h1 class="headline">This is the headline of my final project</h1>
+      <h1 class="headline">The headline of your project goes here and here</h1>
       <p class="subhead">Here, you should put a short subhead for your project</p>
     </header>
     <section class="story-body">
@@ -21,9 +21,22 @@
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
 
-      <h2 class="subhead">Here is a subhead</h2>
+      <h2 class="subhead">Journalists Killed By Motive (2008 - 2018)</h2>
 
-      <div id="chart-1" class="chart placeholder"></div>
+      <div id="chart-1" class="chart">
+        <div id="nav">
+            <a data-filter="# Killed" data-wording="were killed">Total Killed</a>
+            <a data-filter="Murdered" data-wording="were murdered">Murdered</a>
+            <a data-filter="Crossfire" data-wording="were killed in crossfire">In Crossfire</a>
+            <a data-filter="Dangerous Assignment" data-wording="were killed on a dangerous assignment">On Dangerous Assignment</a>
+            <a data-filter="Unknown" data-wording="unknown cause of death">Unknown Motive</a>
+        </div>
+        <div id="chart"></div>
+        <div id="tooltip"></div>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="script.js?c=12345"></script>
+      </div>
+
       <p class="credit">Source: Something something</p>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
@@ -32,7 +45,9 @@
 
       <h2 class="subhead">Here is a subhead</h2>
 
-      <div id="chart-2" class="chart placeholder"></div>
+      <div id="chart-2" class="chart">
+        <img src="images/Mapa-arreglado.jpg">
+      </div>
       <p class="credit">Source: Something something</p>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
